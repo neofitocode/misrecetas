@@ -84,7 +84,8 @@
     <hr>
     <!--Formularios--><h1>Formularios</h1>
     <form>
-        <input type="text" value="hola">
+        <input type="text" value="hola"><!--Caja de texto-->
+        <textarea placeholder="Prueba a escribir"></textarea><!--Cuadro de texto expandible-->
         <br>
         <input type="text" placeholder="Introduce tu nombre">
         <br>
@@ -100,6 +101,25 @@
         </select>
         <hr>
         <input type="submit" value="Mandar">
+        <button>Enviar</button><!--Funciona igual que el input submit dentro de form-->
     </form>
+    <hr>
+    <form>
+        <label>Introduce tu nombre:
+            <input type="text">
+        </label><!--Poner label encerrando a input para que se enlacen las etiquetas-->
+        <br>
+        <label>Introduce tu contraseña:
+            <input type="password">
+        </label>
+        <br><br>
+        <input type="submit" disabled>
+        <br>
+        <button>Enviar datos</button>
+    </form>
+    <br>
+    <br>
+    <p>Hola, este es el <sup>penúltimo</sup> <sub>párrafo</sub> de la <del>página</del>.</p>
+    <p><em>Adiós</em></p>
 </body>
 </html>
