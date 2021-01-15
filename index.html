@@ -1,43 +1,51 @@
-<!DOCTYPE html>
+5<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="utf-8">
         <title>Mis Recetas</title>
-        <meta name="description" content="Página web sobre mis recetas">
-        <meta name="keywords" content="recetas, comida, cocina, gastronomía">
-
+        <link rel="icon" href="images/misrecetas-logo.png">
+        <meta name="description" content="Página en la que os muestro mis recetas de cocina.">
+        <meta name="keywords" content="Recetas, cocina, culinarias, repostería, gastronomía">
     </head>
     <body>
-        <header style="background-color: darkcyan;">
-            Mis recetas
+        <header style="text-align: center;">
+            <a href="index.html"><img width="150" height="150" src="images/misrecetas-logo.png" alt="Mis Recetas"></a>
         </header>
-        <nav style="background-color: darkmagenta;">
-            Inicio | Recetas | Contactar
+        <nav style="text-align: center;padding: 10px;">
+            Inicio | 
+            <a href="recetas.html">Recetas</a> |
+            <a href="contactar.html">Contactar</a>
         </nav>
-        <main style="background-color: blue;">
-            <section style="background-color: rgb(140, 141, 141);">
-                <article style="background-color: darkslategrey;">
-                    <h1 style="background-color: indianred;">Receta 1</h1>
-                    <p style="background-color: lightblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis soluta nisi fugit voluptatem quasi possimus deleniti. Nesciunt nobis, non inventore fugiat quaerat esse laudantium dignissimos animi, consequatur delectus at eum.</p>
-                </article>
-                <article style="background-color: fuchsia;">
-                    <h1 style="background-color: lightseagreen;">Receta 2</h1>
-                    <p style="background-color: lightslategrey;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum nisi omnis labore ut voluptas dolore veniam, quam voluptate possimus ipsa, ea quos facilis, delectus soluta et natus aliquid accusantium!</p>
-                </article>
-                <article style="background-color: green;">
-                    <h1 style="background-color: midnightblue;">Receta 3</h1>
-                    <p style="background-color: moccasin;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia temporibus commodi cum neque perspiciatis, libero officia reprehenderit, fugit repudiandae impedit illum sit deserunt hic ratione enim autem qui voluptate nemo.</p>
-                </article>
+        <main style="display: flex;border: 1px solid goldenrod;padding: 60px; margin-bottom: 20px;">
+            <section style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;display: flex;width: 72.5%;padding: 5px;justify-content: space-around;flex-direction: row;flex-wrap: wrap;border: 2px solid black;background-color: rgb(243, 243, 243);">
+                <div style="border: 1px solid brown;text-align: center;width:40%;padding: 10px;margin-bottom: 5px;">
+                    <h2><a href="recetas/receta1.html">Receta 1</a></h2>
+                    <a href="recetas/receta1.html"><img width="200" height="120" src="_resources/espaguetis-de-calabacin.jpg" alt="Espaguetis de calabacín"></a>
+                </div>
+                <div style="border: 1px solid brown;text-align: center;width:40%;padding: 10px;margin-bottom: 5px;">
+                    <h2><a href="recetas/receta2.html">Receta 2</a></h2>
+                    <a href="recetas/receta2.html"><img width="200" height="120" src="_resources/lubina-con-hummus-de-guisantes.jpg" alt="Lubina con hummus de guisantes"></a>
+                </div>
+                <div style="border: 1px solid brown;text-align: center;width:40%;padding: 10px;margin-bottom: 5px;">
+                    <h2><a href="recetas/receta3.html">Receta 3</a></h2>
+                    <a href="recetas/receta3.html"><img width="200" height="120" src="_resources/tiramisu-express.jpg" alt="Tiramisú express"></a>
+                </div>
+                <div style="border: 1px solid brown;text-align: center;width:40%;padding: 10px;margin-bottom: 5px;">
+                    <h2><a href="recetas/receta4.html">Receta 4</a></h2>
+                    <a href="recetas/receta4.html"><img width="200" height="120" src="_resources/vichyssoise-de-esparragos-blancos.jpg" alt="Vichyssoise de espárragos blancos"></a>
+                </div>
             </section>
-            <aside style="background-color: gold;">
-                <h2 style="background-color: orangered;">Menú del día</h2>
-                <ul style="background-color: palegreen;">
-                    <li style="background-color: red;">Receta 6</li>
-                    <li style="background-color: royalblue;">Receta 7</li>
-                    <li style="background-color: slateblue;">Receta 9</li>
+            <aside style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;width: 20%;margin-left: auto;margin-bottom: auto ;border: 2px solid black;background-color: rgb(243, 243, 243);padding: 10px;">
+                <h2 style="text-align: center;">Menú del día</h2>
+                <ul style="background-color: white;padding-bottom: 40px;margin-left: 20px;margin-right: 20px;">
+                    <li style="padding-bottom: 2px;"><a href="recetas/receta6.html">Receta 6</a></li>
+                    <li style="padding-bottom: 2px;"><a href="recetas/receta7.html">Receta 7</a></li>
+                    <li style="padding-bottom: 2px;"><a href="recetas/receta7.html">Receta 9</a></li>
                 </ul>
             </aside>
         </main>
-        <footer style="background-color: rgb(219, 74, 7);">Footer - 2021</footer>
+        <footer style="text-align: center;border: 1px solid black;background-color: rgb(243, 207, 201);padding: 10px;margin-bottom: 10px;">
+            Footer - <a href="https://github.com/neofitocode"><strong>Cristian GR.</strong></a> - 2021 ©
+        </footer>
     </body>
 </html>
