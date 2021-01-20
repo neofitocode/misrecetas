@@ -6,73 +6,75 @@
         <link rel="icon" href="images/misrecetas-logo.png">
         <meta name="description" content="Página en la que os muestro mis recetas de cocina.">
         <meta name="keywords" content="Recetas, cocina, culinarias, repostería, gastronomía">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--Logo Cabecera-->
-        <header style="text-align: center;">
+        <header class="center">
             <a href="index.html"><img width="150" height="150" src="images/misrecetas-logo.png" alt="Mis Recetas"></a>
         </header>
         <!--Navegación-->
-        <nav style="text-align: center;padding: 10px;">
+        <nav class="nav center">
             <a href="index.html">Inicio</a> | 
             <strong>Recetas</strong> |
             <a href="contactar.html">Contactar</a>
         </nav>
         <!--Contenido principal-->
-        <main style="border: 1px solid goldenrod;padding: 60px; margin-bottom: 20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-            <section style="background-color: rgb(243, 243, 243);">
+        <main class="main">
+            <section class="section-recetas">
                 <!--Receta 1-->
                 <article>
-                    <h2><a href="recetas/receta.html">Receta 1</a></h2>
-                    <section>
+                    <h2><a href="receta.html">Receta 1</a></h2>
+                    <section class="flex">
                         <div>
-                            <a href="recetas/receta.html"><img width="100" height="70" src="_resources/espaguetis-de-calabacin.jpg" alt="Espaguetis de calabacín"></a>
+                            <a href="receta.html"><img width="150" height="100" src="_resources/espaguetis-de-calabacin.jpg" alt="Espaguetis de calabacín"></a>
                         </div>
-                        <div>
-                            <div>Fecha | Autor</div>
+                        <div class="div-autor-receta">
+                            <div><strong>Fecha | Autor</strong></div>
                             <div>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, ipsam. Earum iure error molestiae molestias ullam modi dolore, quam rerum?
                             </div>
-                            <div><a href="recetas/receta.html">Ver Receta</a></div>
+                            <div><a href="receta.html"><strong>Ver Receta</strong></a></div>
                         </div>
                     </section>
                 </article>
                 <!--Receta 2-->
                 <article>
-                    <h2><a href="recetas/receta.html">Receta 2</a></h2>
+                    <h2><a href="receta.html">Receta 2</a></h2>
+                    <section class="flex">
                         <div>
-                            <a href="recetas/receta.html"><img width="100" height="70" src="_resources/lubina-con-hummus-de-guisantes.jpg" alt="Lubina con hummus de guisantes"></a>
+                            <a href="receta.html"><img width="150" height="100" src="_resources/lubina-con-hummus-de-guisantes.jpg" alt="Lubina con hummus de guisantes"></a>
                         </div>
-                        <div>
-                            <div>Fecha | Autor</div>
+                        <div class="div-autor-receta">
+                            <div><strong>Fecha | Autor</strong></div>
                             <div>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id voluptates autem ea accusantium at maiores magnam voluptatem laborum! Natus, eos.
                             </div>
-                            <div><a href="recetas/receta.html">Ver Receta</a></div>
+                            <div><a href="receta.html"><strong>Ver Receta</strong></a></div>
                         </div>
                     </section>
                 </article>
                 <!--Receta 3-->
                 <article>
-                    <h2><a href="recetas/receta.html">Receta 3</a></h2>
-                    <section>
+                    <h2><a href="receta.html">Receta 3</a></h2>
+                    <section class="flex">
                         <div>
-                            <a href="recetas/receta.html"><img width="100" height="70" src="_resources/tiramisu-express.jpg" alt="Tiramisú express"></a>
+                            <a href="receta.html"><img width="150" height="100" src="_resources/tiramisu-express.jpg" alt="Tiramisú express"></a>
                         </div>
-                        <div>
-                            <div>Fecha | Autor</div>
+                        <div class="div-autor-receta">
+                            <div><strong>Fecha | Autor</strong></div>
                             <div>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat autem praesentium consequatur soluta, repellat expedita neque rerum veritatis quam vero?
                             </div>
-                            <div><a href="recetas/receta.html">Ver Receta</a></div>
+                            <div><a href="receta.html"><strong>Ver Receta</strong></a></div>
                         </div>
                     </section>
                 </article>
             </section>
-            <nav><a href="">1</a> | 2 | 3 ... 12</nav>
+            <nav class="pagination center"><a href="">1</a> | 2 | 3 ... 12</nav>
         </main>
         <!--Footer-->
-        <footer style="text-align: center;border: 1px solid black;background-color: rgb(243, 207, 201);padding: 10px;margin-bottom: 10px;">
+        <footer class="footer center">
             Footer - <a href="https://github.com/neofitocode" target="_blank"><strong>Cristian GR.</strong></a> - 2021 ©
         </footer>
     </body>

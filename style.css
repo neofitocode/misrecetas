@@ -1,1 +1,96 @@
-/*Esta es mi primera hoja de estilos*/
+/*CSS Index y común*/
+.center{
+    text-align: center;
+}
+.nav{
+    padding: 10px;
+}
+.main{
+    border: 1px solid goldenrod;
+    padding: 60px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section-index{
+    width: 72.5%;
+    padding: 5px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+}
+.flex{
+    display: flex;
+}
+.recetas-index{
+    border: 1px solid brown;
+    width:40%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.aside{
+    width: 20%;
+    padding: 10px;
+    margin-left: auto;
+    margin-bottom: auto ;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+}
+.list-index{
+    background-color: white;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.element-list{
+    padding-bottom: 2px;
+    font-size: 18px;
+}
+.footer{
+    border: 1px solid black;
+    background-color: rgb(243, 207, 201);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/*CSS Contactar*/
+.form{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    width: 360px;
+    margin: 0px auto;
+    padding: 5px;
+    text-align: center;
+}
+.div-form{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.input-form{
+    width: 270px;
+    height: 35px;
+}
+.textarea-form{
+    width: 270px;
+    height: 150px;
+}
+/*CSS Recetas*/
+.section-recetas{
+    width: 600px;
+    margin: 0px auto;
+    padding: 5px 20px;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+}
+.div-autor-receta{
+    padding-left: 20px;
+}
+.pagination{
+    padding-top: 20px;
+    font-size: 18px;
+}

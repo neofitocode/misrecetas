@@ -1,0 +1,16 @@
+/*Esta es mi primera hoja de estilos*/
+.caja{
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.linea{
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid red;
+}

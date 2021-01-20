@@ -6,35 +6,36 @@
         <link rel="icon" href="images/misrecetas-logo.png">
         <meta name="description" content="Página en la que os muestro mis recetas de cocina.">
         <meta name="keywords" content="Recetas, cocina, culinarias, repostería, gastronomía">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--Logo Cabecera-->
-        <header style="text-align: center;">
+        <header class="center">
             <a href="index.html"><img width="150" height="150" src="images/misrecetas-logo.png" alt="Mis Recetas"></a>
         </header>
         <!--Navegación-->
-        <nav style="text-align: center;padding: 10px;">
+        <nav class="nav center">
             <a href="index.html">Inicio</a> | 
             <a href="recetas.html">Recetas</a> |
             <strong>Contactar</strong>
         </nav>
         <!--Contenido principal-->
-        <main style="border: 1px solid goldenrod;padding: 60px; margin-bottom: 20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-            <form style="border: 1px solid black;background-color: rgb(243, 243, 243);width: 360px;margin: 0px auto;padding: 5px;text-align: center;">
-                <div style="padding: 10px;margin-bottom: 5px;">
-                    <label>Nombre<input type="text" placeholder="Tu nombre" style="width: 270px;height: 35px;"></label>
+        <main class="main">
+            <form class="form">
+                <div class="div-form">
+                    <label>Nombre<input type="text" placeholder="Tu nombre" class="input-form"></label>
                 </div>
-                <div style="padding: 10px;margin-bottom: 5px;">
-                    <label>Email<input type="text" placeholder="Tu email" style="width: 270px;height: 35px;"></label>
+                <div class="div-form">
+                    <label>Email<input type="text" placeholder="Tu email" class="input-form"></label>
                 </div>
-                <label>Mensaje<textarea placeholder="Escribe tu mensaje..." style="width: 270px;height: 150px;"></textarea></label>
-                <div style="padding: 10px;margin-bottom: 5px;">
+                <label>Mensaje<textarea placeholder="Escribe tu mensaje..." class="textarea-form"></textarea></label>
+                <div class="div-form">
                     <button>Enviar mensaje</button>
                 </div>
             </form>
         </main>
         <!--Footer-->
-        <footer style="text-align: center;border: 1px solid black;background-color: rgb(243, 207, 201);padding: 10px;margin-bottom: 10px;">
+        <footer class="footer center">
             Footer - <a href="https://github.com/neofitocode" target="_blank"><strong>Cristian GR.</strong></a> - 2021 ©
         </footer>
     </body>
