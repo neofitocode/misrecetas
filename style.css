@@ -5,9 +5,14 @@
 .nav{
     padding: 10px;
 }
+.logo{
+    width: 150px;
+    height: auto;
+}
 .main{
     border: 1px solid goldenrod;
-    padding: 60px;
+    padding: 50px;
+    min-width: 350px;
     margin-bottom: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -25,7 +30,7 @@
     display: flex;
 }
 .recetas-index{
-    border: 1px solid brown;
+    border: 1px solid rgb(82, 38, 38);
     width:40%;
     padding: 10px;
     margin-bottom: 5px;
@@ -80,17 +85,46 @@
 /*CSS Recetas*/
 .section-recetas{
     width: 600px;
-    margin: 0px auto;
-    padding: 5px 20px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
     justify-content: space-around;
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(243, 243, 243);
 }
-.div-autor-receta{
+.div-autor-recetas{
     padding-left: 20px;
+    padding-right: 10px;
 }
 .pagination{
     padding-top: 20px;
     font-size: 18px;
+}
+/*CSS Receta Independiente*/
+.section-receta{
+    width: 70%;
+    min-width: 330px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+}
+/*CSS Imágenes*/
+.image{
+    width: 200px;
+    height: auto;
+    border: 3px solid rgb(82, 38, 38);
+    border-radius: 5px;    
+}
+.image-receta{
+    width: 300px;
+    height: auto;
+    border: 3px solid rgb(82, 38, 38);
+    border-radius: 5px;
 }
