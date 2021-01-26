@@ -32,11 +32,15 @@
 .recetas-index{
     border: 1px solid rgb(82, 38, 38);
     width:40%;
+    min-width: 200px;
+    max-width: 900px;
     padding: 10px;
     margin-bottom: 5px;
 }
 .aside{
     width: 20%;
+    min-width: 150px;
+    max-width: 250px;
     padding: 10px;
     margin-left: auto;
     margin-bottom: auto ;
@@ -51,8 +55,8 @@
     margin-right: 20px;
 }
 .element-list{
-    padding-bottom: 2px;
-    font-size: 18px;
+    padding-bottom: 10px;
+    font-size: 17px;
 }
 .footer{
     border: 1px solid black;
@@ -76,7 +80,7 @@
 }
 .input-form{
     width: 270px;
-    height: 35px;
+    height: 18px;
 }
 .textarea-form{
     width: 270px;
@@ -84,7 +88,9 @@
 }
 /*CSS Recetas*/
 .section-recetas{
-    width: 600px;
+    width: 95%;
+    min-width: 350;
+    max-width: 600px;
     margin: auto;
     padding: 20px;
     padding-top: 5px;
