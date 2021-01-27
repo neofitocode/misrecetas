@@ -3,14 +3,13 @@
     width: 500px;
     height: 500px;
     display: flex;
-    justify-content: start
+    overflow-x: scroll;
+    
 }
 .hijo{
     background-color: yellow;
     border: 2px solid black;
     width: 100px;
     height: 100px;
-}
-.especial{
-    margin-left: auto;
+    flex: 0 0 auto;
 }
